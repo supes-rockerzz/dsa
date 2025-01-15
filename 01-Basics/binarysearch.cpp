@@ -22,7 +22,7 @@ int binarySearch(int arr[], int n, int key) {
     return s;  // returns the index where the key can be inserted if not found
 }
 int main() {
-  int a[5]={2,6,8,9,12};
+  int arr[5]={2,6,8,9,12};
   int key=7;
-  cout<<"index of "<<key<< " : "<<binarySearch(a,5,7);
+  cout<<"index of "<<key<< " : "<<binarySearch(arr,5,7);
 }
